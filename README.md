@@ -40,3 +40,14 @@ Future functionality includes:
 * REST API for controlling the lights
 * Responsive web front-end for API
 * Other compatibility APIs?
+
+Building
+========
+
+On the Raspberry Pi, PILumen has been tested with the Raspbian distribution.  The following steps are needed:
+
+1. Install a recent node.js - I built from source
+2. Clone this repo
+3. install grunt-cli: `sudo npm install -g grunt-cli`
+4. Run `grunt` to compile the coffeescript
+5. Execute `./pilumen.js`
