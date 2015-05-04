@@ -1,0 +1,34 @@
+{
+  "name": "pilumen",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Light control software for the mi-light/LimitlessLED/EasyBulb systems",
+  "main": "pilumen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -o lib -c src/*.*coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cognitivegears/pilumen.git"
+  },
+  "keywords": [
+    "raspberrypi",
+    "pi",
+    "mi-light",
+    "limitlessled",
+    "easybulb",
+    "home",
+    "automation"
+  ],
+  "author": "Nathan Byrd <techy1@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cognitivegears/pilumen/issues"
+  },
+  "homepage": "https://github.com/cognitivegears/pilumen",
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "serialport": "^1.6.3"
+  },
+  "preferGlobal": true
+}
