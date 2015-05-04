@@ -13,6 +13,9 @@ lib-cov
 # Output directory for coffeescript compilation
 lib
 
+# Ignore swap files
+.*.swp
+
 # Coverage directory used by tools like istanbul
 coverage
 
