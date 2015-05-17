@@ -1,15 +1,15 @@
 {
-  "name": "pilumen",
+  "name": "node-milight-local-proxy",
   "version": "1.0.0",
   "description": "Raspberry Pi Light control software for the mi-light/LimitlessLED/EasyBulb systems",
-  "main": "pilumen.js",
+  "main": "node-milight-local-proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "coffee -o lib -c src/*.*coffee"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cognitivegears/pilumen.git"
+    "url": "https://github.com/cognitivegears/node-milight-local-proxy.git"
   },
   "keywords": [
     "raspberrypi",
@@ -23,9 +23,9 @@
   "author": "Nathan Byrd <techy1@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/cognitivegears/pilumen/issues"
+    "url": "https://github.com/cognitivegears/node-milight-local-proxy/issues"
   },
-  "homepage": "https://github.com/cognitivegears/pilumen",
+  "homepage": "https://github.com/cognitivegears/node-milight-local-proxy",
   "dependencies": {
     "coffee-script": "^1.9.2",
     "serialport": "^1.6.3"

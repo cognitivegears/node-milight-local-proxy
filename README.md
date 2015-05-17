@@ -1,4 +1,4 @@
-# PIlumen
+# node-milight-local-proxy
 Raspberry Pi Light control software for the mi-light/LimitlessLED/EasyBulb systems
   
 Copyright
@@ -6,25 +6,25 @@ Copyright
 
 Copyright (c) 2015 Nathan Byrd. All Rights Reserved.
 
-This file is part of PILumen.
+This file is part of node-milight-local-proxy.
 
-PILumen is free software: you can redistribute it and/or modify
+node-milight-local-proxy is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-PILumen is distributed in the hope that it will be useful,
+node-milight-local-proxy is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with PILumen.  If not, see [gnu.org](http://www.gnu.org/licenses/).
+along with node-milight-local-proxy.  If not, see [gnu.org](http://www.gnu.org/licenses/).
 
 Description
 ===========
 
-PILumen has been created as a replacement bridge for the 
+node-milight-local-proxy has been created as a replacement bridge for the 
 mi-light/LimitlessLED/EasyBulb systems.  Currently this requires a specific 
 software hack in order to access the bulbs from Raspberry PI, see 
 [LimitlessLED WiFi Bridge 4.0 Conversion to Raspberry Pi](http://servernetworktech.com/2014/09/limitlessled-wifi-bridge-4-0-conversion-raspberry-pi/)
@@ -44,10 +44,10 @@ Future functionality includes:
 Building
 ========
 
-On the Raspberry Pi, PILumen has been tested with the Raspbian distribution.  The following steps are needed:
+On the Raspberry Pi, node-milight-local-proxy has been tested with the Raspbian distribution.  The following steps are needed:
 
 1. Install a recent node.js - I built from source
 2. Clone this repo
 3. install grunt-cli: `sudo npm install -g grunt-cli`
 4. Run `grunt` to compile the coffeescript
-5. Execute `./pilumen.js`
+5. Execute `./node-milight-local-proxy.js`

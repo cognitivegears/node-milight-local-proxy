@@ -1,7 +1,7 @@
 command.litcoffee
 =================
 
-This is the main command dispatcher for pilumen.  
+This is the main command dispatcher for node-milight-local-proxy.  
 This class is responsible for listening to UDP for mi-light commands 
 (both admin and led commands) and dispatching them to the 
 appropriate functions.
@@ -11,20 +11,21 @@ Copyright
 
 Copyright (c) 2015 Nathan Byrd. All Rights Reserved.
 
-This file is part of PILumen.
+This file is part of node-milight-local-proxy.
 
-PILumen is free software: you can redistribute it and/or modify
+node-milight-local-proxy is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-PILumen is distributed in the hope that it will be useful,
+node-milight-local-proxy is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with PILumen.  If not, see [gnu.org](http://www.gnu.org/licenses/).
+along with node-milight-local-proxy.  If not, see 
+[gnu.org](http://www.gnu.org/licenses/).
 
 Code
 ====
@@ -71,7 +72,7 @@ Use the serialport module to be able to communicate with the mi-light module.
     serial = new SerialPort TTL_PORT, {baudrate: TTL_SPEED}
 
 Define a main runWith() module to handle the server creation - 
-dispatched from the main pilumen.js executable
+dispatched from the main node-milight-local-proxy.js executable
 
     exports.runWith = (args) ->
 
