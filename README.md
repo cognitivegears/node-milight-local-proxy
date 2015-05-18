@@ -44,7 +44,19 @@ Future functionality includes:
 Building
 ========
 
-On the Raspberry Pi, node-milight-local-proxy has been tested with the Raspbian distribution.  The following steps are needed:
+On the Raspberry Pi, node-milight-local-proxy has been tested with the Raspbian distribution.  
+
+To install the module, use the following:
+
+1. Install a recent node.js - I built from source
+2. Run `sudo npm install -g node-milight-local-proxy`
+3. Startup using `milight-proxy`
+
+*NOTE* I had some trouble with installing on Raspberry PI due to permissions 
+issues with the serialport dependency.  If you get an error about serialport, 
+try `sudo npm install -g node-milight-local-proxy --unsafe-perm` instead.
+
+To setup a development environment, use the following:
 
 1. Install a recent node.js - I built from source
 2. Clone this repo
