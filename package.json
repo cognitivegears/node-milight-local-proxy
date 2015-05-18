@@ -2,7 +2,6 @@
   "name": "node-milight-local-proxy",
   "version": "1.0.0",
   "description": "Raspberry Pi Light control software for the mi-light/LimitlessLED/EasyBulb systems",
-  "main": "node-milight-local-proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "coffee -o lib -c src/*.*coffee"
@@ -31,6 +30,19 @@
     "serialport": "^1.6.3"
   },
   "preferGlobal": true,
+  "bin": {
+    "milight-proxy": "node-milight-local-proxy.js" 
+  },
+  "files": [
+    "lib/",
+    "lib/command.js",
+    "LICENSE",
+    "node-milight-local-proxy.js",
+    "README.md"
+  ],
+  "directies": {
+    "lib": "lib"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-coffee": "^0.13.0"
